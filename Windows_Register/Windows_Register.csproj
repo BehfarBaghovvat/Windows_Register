@@ -46,10 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Enums\UserAccessLevel.cs" />
+    <Compile Include="Models\Enums\Question.cs" />
     <Compile Include="Models\Enums\UserGender.cs" />
-    <Compile Include="Models\Enums\UserMonth.cs" />
-    <Compile Include="Models\Enums\UserPost.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

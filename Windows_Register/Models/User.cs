@@ -1,8 +1,5 @@
 ﻿namespace Windows_Register
 {
-    
-    
-
     /// <summary>
     /// User calss.
     /// </summary>
@@ -29,32 +26,7 @@
         /// <summary>
         /// Gender user.
         /// </summary>
-        public string Gender { get; set; }
-
-        /// <summary>
-        /// Post User
-        /// </summary>
-        public string Post { get; set; }
-
-        /// <summary>
-        /// User access level to software.
-        /// </summary>
-        public string AccessRate { get; set; }
-
-        /// <summary>
-        /// Birthday.
-        /// </summary>
-        public int Day { get; set; }
-
-        /// <summary>
-        /// birth month.
-        /// </summary>
-        public string Month { get; set; }
-
-        /// <summary>
-        /// Year of birth.
-        /// </summary>
-        public int Year { get; set; }
+        public string Gender { get; set; }       
 
         /// <summary>
         /// Email to verify your account.
@@ -64,7 +36,7 @@
         /// <summary>
         /// Confirm email user.
         /// </summary>
-        public string ConformEmail  { get; set; }
+        public string ConformEmail { get; set; }
 
         /// <summary>
         /// Password for user account security.
@@ -81,53 +53,42 @@
         /// </summary>
         public int SetPhonNumber { get; set; }
 
+        /// <summary>
+        /// Import multiple photos for use in password recovery.
+        /// </summary>
         public object ImagePassword { get; set; }
-
 
         /// <summary>
         /// Verification code to confirm user account.
         /// </summary>
-        public string VerificationCode
-        {
-            get
-            {
-                string Code = SecurityCode();
-
-                return Code;
-            }            
-        }
+        public string VerificationCode { get; }        
 
         /// <summary>
-        /// 
+        /// To receive the password,
+        /// the user's registered email will be received.
         /// </summary>
         public string ResetPasswordEmail { get; set; }
 
+        /// <summary>
+        /// To receive the code via SMS,
+        /// the registered user's phone is received.
+        /// </summary>
         public int ResetPasswordPhone { get; set; }
 
+        /// <summary>
+        /// In order to log in to the user account,
+        /// the photos must be identified.
+        /// </summary>
         public object RessetPasswordPicture { get; set; }
 
-
-
+        /// <summary>
+        /// Security questions can be used to access the account.
+        /// </summary>
+        public string SecutrityQuestion { get; set; }
 
         /// <summary>
-        /// Security code generation method.
+        /// Your answer to the security question provides access.
         /// </summary>
-        /// <returns>Result</returns>
-        private string SecurityCode()
-        {
-            string result = null;
-            System.Random R = new System.Random();
-
-            for (int index = 0; index == 5; index++)
-            {
-                result += (char)R.Next(65, 90);
-            }
-
-            return result;
-        }
-
-
-        
-
+        public string UserAnswer { get; set; }
     }
 }
