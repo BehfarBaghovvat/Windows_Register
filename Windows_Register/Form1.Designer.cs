@@ -1,4 +1,4 @@
-﻿namespace Windows_Register
+﻿namespace Models
 {
     partial class SignUpForm
     {

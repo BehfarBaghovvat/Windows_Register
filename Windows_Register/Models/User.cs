@@ -1,14 +1,14 @@
-﻿namespace Windows_Register
+﻿namespace Models
 {
     /// <summary>
     /// User calss.
     /// </summary>
-    class User
+     public class User: object
     {
         /// <summary>
         /// Costrucor user.
         /// </summary>
-        public User()
+        public User():base()
         {
 
         }

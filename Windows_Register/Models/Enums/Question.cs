@@ -1,4 +1,4 @@
-﻿namespace Windows_Register.Models.Enums
+﻿namespace Models.Models.Enums
 {
     class Question
     {

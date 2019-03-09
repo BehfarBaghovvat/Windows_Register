@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Windows_Register.Properties
+namespace Models.Properties
 {
 
 
