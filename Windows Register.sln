@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows_Register", "Windows_Register\Windows_Register.csproj", "{78C5273C-EFAA-4B0E-A19C-EDF3F250BBDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Register", "Windows_Register\Windows Register.csproj", "{78C5273C-EFAA-4B0E-A19C-EDF3F250BBDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

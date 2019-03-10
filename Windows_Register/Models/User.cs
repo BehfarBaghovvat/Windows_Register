@@ -23,7 +23,6 @@
 		/// </summary>
 		public string LastName { get; set; }
 
-
 		/// <summary>
 		/// Birth username
 		/// </summary>
@@ -68,6 +67,11 @@
 		/// With what IP has been communicated.
 		/// </summary>
 		public int CommunicationIP { get; set; }
+
+		/// <summary>
+		/// Connection time to network
+		/// </summary>
+		public System.Timers.Timer ConnectionTime { get; set; }
 
 	}
 }
